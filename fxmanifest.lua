@@ -1,9 +1,9 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Mac0360'
-discord 'Mac0360'
-description 'Script for forcing players to take out specific weapons from a trunk.'
+author 'Mac Development'
+description 'Restricts weapon use unless near a vehicle'
 version '1.0.0'
 
-client_script 'client.lua'
+client_script 'client/main.lua'
+shared_script 'shared/config.lua'
